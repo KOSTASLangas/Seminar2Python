@@ -2,16 +2,14 @@
 # определять количество вхождений одной строки в другую
 
 
-
-def f(N):
+def f(N, D):
     count = 0
-    for i in range(lenght):
+    for i in range(len(a) - len(b)):
         if b in a[i: i + len(b)]:
             count += 1
-    return print(count)
+    return count
 
 
 a = str(input('Введите первую строку: ' '\n'))
 b = str(input('Введите вторую строку: ' '\n'))
-lenght = len(a) - len(b)
-f(lenght)
+print(f(a, b))
